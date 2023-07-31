@@ -1,6 +1,6 @@
 import geocoder
 
-our_ip = geocoder.ip("5.156.11.83")
+our_ip = geocoder.ip("IP_ADDRESS")
 
 location = our_ip.latlng
 print(location)
